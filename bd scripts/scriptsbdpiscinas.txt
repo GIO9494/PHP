@@ -1,0 +1,220 @@
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+INSERT INTO `horarios`(`Id_Horario`, `Turno`) VALUES ('1','Mañana    9 - 11');
+INSERT INTO `horarios`(`Id_Horario`, `Turno`) VALUES ('2','Media Manaña 11 - 1');
+INSERT INTO `horarios`(`Id_Horario`, `Turno`) VALUES ('3','Media Tarde  2 - 4');
+INSERT INTO `horarios`(`Id_Horario`, `Turno`) VALUES ('4','Tarde  4 - 6');
+----------------------------------usuarios root ------------------------------------------------------------------------------
+INSERT INTO `login`(`Usuario`, `Password`, `email`, `estado`, `passadmin`) VALUES ("Administrador","123456","jeandarkmaknae@gmail.com","activo",123456);
+INSERT INTO `login`(`Usuario`, `Password`, `email`, `estado`, `passadmin`) VALUES ("Admin Ventas","123456asdf","choka39@gmail.com","inactivo",123456);
+INSERT INTO `login`(`Usuario`, `Password`, `email`, `estado`, `passadmin`) VALUES ("Administrador","123456","jeandarkmaknae@gmail.com","activo",123456);
+INSERT INTO `login`(`Usuario`, `Password`, `email`, `estado`, `passadmin`) VALUES ("Add","123","jeandarkmaknae@gmail.com","activo",123456);
+
+----------------------------------CASILLERO ------------------------------------------------------------------------------
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`1`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`3`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`3`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`4`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`5`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`6`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`7`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`8`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`9`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`10`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`11`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`12`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`13`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`14`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`15`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`16`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`17`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`18`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`19`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`20`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`21`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`22`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`23`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`24`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`25`,`vacio`,`3`,`celeste`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`26`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`27`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`28`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`29`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`30`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`31`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`32`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`33`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`34`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`35`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`36`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`37`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`38`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`39`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`40`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`41`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`42`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`43`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`44`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`45`,`vacio`,`3`,`rosado`);
+INSERT INTO `casillero`(`Cod_casillero`, `Estado`, `Cant_Llaves`, `Color`) VALUES (`45`,`vacio`,`3`,`rosado`);
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+----------------------------------HORARIOS ------------------------------------------------------------------------------
+
+---------------------------------- costos ------------------------------------------------------------------------------
+
+<p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

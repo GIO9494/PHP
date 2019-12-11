@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+
+
+<link href="./jean.css" rel="stylesheet" />
+
+ <head>
+   <meta charset="utf-8" />
+  </head>
+  <body>
+   <div id="container">
+    <h1>Enviando  SMS mediante PHP</h1>
+    <form action="" method="post">
+     <ul>
+      <li>
+       <label for="phoneNumber">Nro celular</label>
+       <input type="text" name="phoneNumber" id="phoneNumber" placeholder="3855550168" /></li>
+      <li>
+      <label for="carrier">portador</label>
+       <input type="text" name="carrier" id="carrier" />
+      </li>
+      <li>
+       <label for="smsMessage">Mensaje</label>
+       <textarea name="smsMessage" id="smsMessage" cols="45" rows="15"></textarea>
+      </li>
+     <li><input type="submit" name="sendMessage" id="sendMessage" value="Send Message" /></li>
+    </ul>
+   <?php
+ 
+    if ( isset( $_REQUEST ) && !empty( $_REQUEST ) ) {
+    if (
+   isset( $_REQUEST['phoneNumber'], $_REQUEST['carrier'], $_REQUEST['smsMessage'] ) &&
+    !empty( $_REQUEST['phoneNumber'] ) &&
+   !empty( $_REQUEST['carrier'] )
+  ) {
+   $message = wordwrap( $_REQUEST['smsMessage'], 70 );
+   $to = $_REQUEST['phoneNumber'] . '@' . $_REQUEST['carrier'];
+   $result = @mail( $to, '', $message );
+   print 'Message was sent to ' . $to;
+  } else {
+   print 'Not all information was submitted.';
+  }
+ }
+  
+ ?>
+
+
+
+
+ <style>
+    .select-editable { position:relative; background-color:white; border:solid grey 1px;  width:120px; height:18px; }
+    .select-editable select { position:absolute; top:0px; left:0px; font-size:14px; border:none; width:120px; margin:0; }
+    .select-editable input { position:absolute; top:0px; left:0px; width:100px; padding:1px; font-size:12px; border:none; }
+    .select-editable select:focus, .select-editable input:focus { outline:none; }
+  </style>
+  
+  <div class="select-editable">
+    <select onchange="this.nextElementSibling.value=this.value">
+      <option value=""></option>
+      <option value="115x175 mm">115x175 mm</option>
+      <option value="120x160 mm">120x160 mm</option>
+      <option value="120x287 mm">120x287 mm</option>
+    </select>
+    <input type="text" name="format" value=""/>
+  </div>
+   </form>
+  </div>
+ </body>
+</html>
+

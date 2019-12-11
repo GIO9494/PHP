@@ -1,0 +1,42 @@
+.jean{
+
+ color: black;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.op{
+    opacity: 0.2;
+}
+.tam{
+
+    height: 100px;
+    width: 200px;
+    border-radius: 2px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px  ;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 5px;
+}
+
+.grid-container  {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+}
+.color1{
+
+background: rgb(119, 171, 216);
+color:#fff;
+
+}
